@@ -1,0 +1,49 @@
+.notification{
+    border-radius: 4px;
+    display: grid;
+    grid-gap: 10px;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    grid-template-columns: 1fr 5fr;
+    /* border: 1px solid var(--black); */
+    position: relative;
+    max-height: 0;
+    transition: max-height 2s, 
+}
+
+.notification.visible{
+    max-height: 200px;
+}
+
+.notification.success{
+    background-color: var(--green);
+}
+
+.notification.warning{
+    background-color: var(--orange);
+}
+
+.notification.danger{
+    background-color: var(--red);
+}
+
+.notification img{
+    justify-self: center;
+    align-self: center;
+    width: 40px;
+    padding-left: 10px;
+}
+
+.sub_level_01 .notification p.hidden_note{
+    color: var(--white);
+    font-weight: 500;
+    align-self: center;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.notification:hover{
+    border-color: var(--black);
+}

@@ -1,0 +1,126 @@
+header.home, header{
+    position: fixed;
+    width: 100%;
+    background-color: var(--darkBlue);
+    padding: 0;
+    z-index: 9;
+  }
+  header{
+    /* position: static;
+    width: 100%;
+    background-color: var(--darkBlue); 
+    padding: 0 20px;*/
+  }
+  .wrap_nav{
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  header nav {
+    padding-left: 20px;
+  }
+  header nav ul{
+    display: flex;
+  }
+  header nav ul li{
+    list-style: none;
+    padding: 10px 20px;
+  }
+  header nav ul li a{
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--whiteOptic);
+    text-decoration: none;
+    text-shadow: 2px 2px 4px var(--black);
+  }
+  
+  header nav ul li a.active{
+    border-bottom: 3px solid var(--orange);
+    padding-bottom: 5px;
+  }
+  
+  header nav ul li a:hover{
+    border-bottom: 3px solid var(--orange);
+    padding-bottom: 5px;
+  }
+  .brand{
+    justify-self: end;
+    padding-right: 40px;
+  
+  }
+  .brand .logo img{
+    max-width: 150px;
+  }
+  .toggle-nav{
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    header, header.home{
+      position: static;
+      width: 100%;
+      background-color: var(--darkBlue);
+      padding: 0 20px;
+    }
+    .wrap_nav{
+      grid-template-columns: 1fr;
+    }
+    nav.hidden{
+      display: none;
+    }
+    nav.hidden.showmenu{
+      display: block;
+      background: var(--blue);
+      position: absolute;
+      top: 116px;
+      width: 100%;
+      left: 0;
+      padding-left: 0;
+      z-index: 99;
+      text-align: center;
+    }
+    header nav ul{
+      display: block;
+      
+
+    }
+    header nav ul li{
+      border-bottom: 1px solid var(--darkBlue);
+    }
+    header nav ul li a.active,
+    header nav ul li a:hover,
+    header nav ul li a{
+      padding: 10px;
+      display: block;
+      text-shadow: none;
+      border-bottom:none;
+      font-size: 18px;
+    }
+    header nav ul li a.active,
+    header nav ul li a:hover{
+      color: var(--orange);
+    }
+
+    .brand{
+      position: static;
+      padding-right: 20px;
+    }
+    .brand .logo img{
+      max-width: 120px;
+    }
+    .toggle-nav{
+      display: block;
+      position: absolute;
+      color: var(--whiteOptic);
+      font-size: 36px;
+      top: 55px;
+      left: 35px;
+      padding: 0;
+      margin: 0;
+      line-height: 0;
+      cursor: pointer;
+    }
+  
+  }

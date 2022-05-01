@@ -1,0 +1,79 @@
+
+.book_now{
+    position: relative;
+    overflow: hidden;
+  }
+  .img_bottom {
+    line-height: 0;
+  }
+  .img_bottom img{
+    width: 100%;
+  }
+  .book_text{
+    max-width: 500px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: translateY(40%);
+    -webkit-transform: translateY(40%);
+    -o-transform: translateY(40%);
+    -ms-transform: translateY(40%);
+    -moz-transform: translateY(40%);
+  }
+
+    .text_ready{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 42px;
+    text-transform: capitalize;
+    color: #efe5da;
+    text-shadow: 2px 2px 5px var(--black);
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  @media only screen and (max-width: 992px) {
+    .book_button{
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .text_ready{
+      font-size: 36px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .text_ready{
+      font-size: 28px;
+    }
+    .book_button{
+      width: 63%;
+    }
+  }
+  
+  
+  .book_button{
+    font-size: 24px;
+    text-transform: lowercase;
+    background-image: linear-gradient(to right , var(--red) , var(--orange) , var(--red));
+    color: var(--white);
+    padding: 6px 40px 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 0px 0px 2px var(--red);
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+
+  .book_now a:hover{
+    box-shadow: 8px 8px 16px rgb(0, 0, 0);
+    box-shadow: 0px 0px 0px 2px var(--red);
+    background-image: linear-gradient(to right , var(--darkRed) , var(--red) , var(--orange) , var(--red) , var(--darkRed));
+
+  }

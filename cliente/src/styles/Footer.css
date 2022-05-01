@@ -1,0 +1,120 @@
+
+footer{
+  background: var(--darkBlue);
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  align-self: auto;
+  align-items: stretch;
+  justify-self: center;
+}
+.level_01_footer{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer_signup .sub_level_01{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 80px 40px 90px 40px;
+    display: grid;
+    grid-template-columns: 1fr 45%;
+    align-items: center;
+}
+.footer_signup .sub_level_01 p{
+  color: var(--lightBlue);
+  font-size: 24px;
+}
+
+.level_01_footer.footer_more{
+  background-color: var(--blue);
+}
+.level_01_footer.footer_more .sub_level_01{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: stretch;
+  align-self: center;
+  background-color: var(--darkBlue);
+  column-gap: 2px;
+  text-align: center;
+}
+.level_01_footer.footer_more .sub_level_01 .item{
+  background-color: var(--blue);
+  padding: 40px 30px 40px 30px;
+}
+
+.level_01_footer.footer_more .sub_level_01:last-child{
+  border-right: 2px solid var(--darkBlue);
+}
+.level_01_footer.footer_more .sub_level_01:first-child{
+  border-left: 2px solid var(--darkBlue);
+}
+.footer_more h4{
+  font-size: 24px;
+  color: var(--darkBlue);
+  margin-bottom: 10px;
+  margin-top: -4px;
+}
+.footer_menu ul li{
+  list-style: none;
+  line-height: 24px;
+}
+.footer_menu a{
+  text-transform: lowercase;
+  font-size: 18px;
+  color: var(--darkBlue);
+}
+.footer_info p{
+  color: var(--white);
+}
+.social_footer ul{
+  padding-left: 20px;
+}
+.social_footer ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+}
+.social_footer ul p{
+  padding-bottom: 10px;
+}
+@media (max-width: 992px){
+  .footer_signup .sub_level_01 p{
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 768px){
+  .footer_signup .sub_level_01 p{
+    font-size: 19px;
+  }
+  .level_01_footer.footer_more .sub_level_01{
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 2px;
+  }
+  .level_01_footer.footer_more .sub_level_01 .item{
+    background-color: var(--blue);
+    padding: 20px 0 20px 0;
+
+  }
+  .level_01_footer.footer_more .sub_level_01 .item.item_1{
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 700px){
+  .footer_signup .sub_level_01{
+    grid-template-columns: 1fr;
+  }
+  .footer_signup .sub_level_01 p{
+    margin-bottom: 4px;
+    text-align: center;
+  }
+}
+

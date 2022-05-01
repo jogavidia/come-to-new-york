@@ -1,0 +1,13 @@
+.description{
+    overflow: hidden;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr; 
+    max-width: 700px;
+}
+
+.description-text{
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+

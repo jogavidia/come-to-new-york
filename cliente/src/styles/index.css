@@ -1,0 +1,55 @@
+:root {
+  --orange: #f2792f;
+  --darkOrange: #ec4f2e;
+  --red: #ea332d;
+  --darkRed: #c9231d;
+  --blue: #005467;
+  --darkBlue: #002a37;
+  --lightBlue: #007d98;
+  --whiteOptic: #efe5da;
+  --white: #ffffff;
+  --black: #000013;
+  --special: 0, 42, 55;
+  --alpha: 0.7;
+  --green: #05a78f;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=M+PLUS+1+Code:wght@300;400&display=swap');
+html {
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1, h2{
+  font-family: 'M PLUS 1 Code', sans-serif;
+}
+p{
+  color: rgb(65, 64, 64);
+}
+
+/* 
+////////////////////////////////////////////////
+BANNER
+////////////////////////////////////////////////
+*/
+.banner_top img{
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .banner_top img{
+    display: none;
+  }
+}
+/* header:not(.home) {
+  background-color: var(--darkBlue) !important;
+} */

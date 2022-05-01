@@ -1,0 +1,57 @@
+{
+    "users":[
+        {
+            "id":"1",
+            "firstName":"John",
+            "lastName":"Done",
+            "email":"done@gmail.com",
+            "age": 23,
+            "companyId": "1",
+            "image": "https://josegavidia.com/jsondata/img/01.jpg"
+        },
+        {
+            "id":"2",
+            "firstName":"Sarah",
+            "lastName":"Monet",
+            "email":"monet@gmail.com",
+            "age": 20,
+            "companyId": "2",
+            "image": "https://josegavidia.com/jsondata/img/02.jpg"
+        },
+        {
+            "id":"3",
+            "firstName":"Louis",
+            "lastName":"Smith",
+            "email":"smith@gmail.com",
+            "age": 21,
+            "companyId": "2",
+            "image": "https://josegavidia.com/jsondata/img/03.jpg"
+        },
+        {
+            "id":"4",
+            "firstName":"Tom",
+            "lastName":"Karp",
+            "email":"karp@gmail.com",
+            "age": 24,
+            "companyId": "3",
+            "image": "https://josegavidia.com/jsondata/img/04.jpg"
+        }
+    ],
+    "companies":[
+        {
+            "id": "1",
+            "name": "Apple",
+            "description": "Apple Inc. is an American multinational technology company that specializes in consumer electronics, software and online services. Apple is the largest information technology company by revenue (totaling US$365.8 billion in 2021) and, as of January 2021, it is the world's most valuable company, the fourth-largest personal computer vendor by unit sales and second-largest mobile phone manufacturer. It is one of the Big Five American information technology companies, alongside Alphabet (Google), Amazon, Meta (Facebook), and Microsoft."
+        },
+        {
+            "id": "2",
+            "name": "Microsoft",
+            "description": "Microsoft Corporation is an American multinational technology corporation which produces computer software, consumer electronics, personal computers, and related services. Its best-known software products are the Microsoft Windows line of operating systems, the Microsoft Office suite, and the Internet Explorer and Edge web browsers. Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers. Microsoft ranked No. 21 in the 2020 Fortune 500 rankings of the largest United States corporations by total revenue;[3] it was the world's largest software maker by revenue as of 2016.[4] It is one of the Big Five American information technology companies, alongside Alphabet (Google), Amazon, Apple, and Meta (Facebook)."
+        },
+        {
+            "id": "3",
+            "name": "Facebook",
+            "description": "Facebook is an American online social media and social networking service owned by Meta Platforms. Founded in 2004 by Mark Zuckerberg with fellow Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes, its name comes from the face book directories often given to American university students. Membership was initially limited to Harvard students, gradually expanding to other North American universities and, since 2006, anyone over 13 years old. As of 2020, Facebook claimed 2.8 billion monthly active users,[2] and ranked seventh in global internet usage.[7] It was the most downloaded mobile app of the 2010s."
+        }
+    ]
+}
